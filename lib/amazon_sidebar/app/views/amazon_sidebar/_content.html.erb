@@ -1,5 +1,5 @@
 <% unless sidebar.asins.empty? %>
-  <h3 class="sidebar_title"><%= h sidebar.title %></h3>
+  <h3 class="sidebar-title"><%= h sidebar.title %></h3>
   <div class="sidebar-body" id="amazon_links">
     <% for asin in sidebar.asins %>
       <% url = "http://rcm.amazon.com/e/cm?t=#{@sidebar.associate_id}&o=1&p=8&l=as1&asins=#{asin}&fc1=000000&IS2=1&lt1=_blank&lc1=0000ff&bc1=000000&bg1=ffffff&f=ifr" %>
